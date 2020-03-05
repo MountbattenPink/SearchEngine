@@ -14,10 +14,14 @@ For example:</br>
 <b>([number of words from list that file contains] / [whole number of words in list entered]) * 100</b> </br>
 6.If you want to exit, enter <b>:exit</b> instead of the word</br>
 
+repository contains also folder "testFolder" for unit tests, demos and dev tests
+### Example:
+<img src="images/usage.png"/>
+
 Representation in memory:</br>
 All the words are stored in modified Trie structure (https://en.wikipedia.org/wiki/Trie). </br>
 </br> <b>Example structure of the trie:</b></br>
 <img src="images/trie.png"/>
 
 
-Each node contains char of current letter, map of child nodes, parameter "is-finished" (means ending of the word), and if "is-finished"==true, there's also map that contains names of files and number of occurences of this word in each file
+Each node contains char of current letter, map of child nodes, parameter "is-finished" (means ending of the word), and if "is-finished"==true, there's also map that contains names of files and number of occurences of this word in each file </br>
